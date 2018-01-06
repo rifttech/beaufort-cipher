@@ -1,0 +1,19 @@
+{
+  "name": "mocha-starter-kit",
+  "version": "0.0.1",
+  "description": "mocha, starter, kit, js, tests",
+  "main": "index.js",
+  "author": "Abramov Arthur",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha --require babel-polyfill --require babel-register"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
